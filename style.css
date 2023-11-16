@@ -54,6 +54,7 @@ footer {
     }
     header {
         flex-direction: column;
+        margin-top: 10px;
     }
     .container{
         flex-direction: column;
@@ -61,5 +62,6 @@ footer {
     }
     #generate-new {
         padding: 10px 10px;
+        margin: 20px 0px;
     }
 }
