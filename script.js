@@ -38,7 +38,7 @@ async function readData() {
     postcode.innerHTML = `Código postal: ${json.results[0].location.postcode}`
     picture.innerHTML = `<img src="${json.results[0].picture.large}">`
 
-    //console.log(json)
+    // console.log(json)
 }
 generateNew.addEventListener('click', readData())
 // readData();
